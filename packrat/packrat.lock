@@ -1,8 +1,13 @@
 PackratFormat: 1.4
 PackratVersion: 0.4.3
-RVersion: 3.1.0
+RVersion: 3.2.0
 Repos: CRAN=http://cran.rstudio.com,
     CRANextra=http://www.stats.ox.ac.uk/pub/RWin
+
+Package: RUnit
+Source: CRAN
+Version: 0.4.28
+Hash: 850d98dbd77e0235d49cae9ea505a6e4
 
 Package: packrat
 Source: CRAN
