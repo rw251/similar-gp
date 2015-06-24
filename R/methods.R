@@ -6,8 +6,8 @@ library(gclus)
 library(rgl)
 
 library(devtools)
-install_github("ggbiplot", "vqv")
-library(ggbiplot)
+#install_github("ggbiplot", "vqv")
+#library(ggbiplot)
 
 g <- ggbiplot(my.prc, obs.scale = 1, var.scale = 1, 
               ellipse = TRUE, 

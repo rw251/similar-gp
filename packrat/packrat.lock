@@ -19,6 +19,11 @@ Source: CRAN
 Version: 1.2-6
 Hash: a53ddc5a49706984d234ea5cc209c8f0
 
+Package: crayon
+Source: CRAN
+Version: 1.3.0
+Requires: memoise
+
 Package: dichromat
 Source: CRAN
 Version: 2.0-0
@@ -38,7 +43,7 @@ Package: ggplot2
 Source: CRAN
 Version: 1.0.1
 Hash: 06a8e5faacfd76c9e4ab11a5b7ad94d6
-Requires: digest, gtable, plyr, proto, reshape2, scales
+Requires: digest, gtable, proto, plyr, scales, reshape2
 
 Package: gtable
 Source: CRAN
@@ -54,6 +59,12 @@ Package: magrittr
 Source: CRAN
 Version: 1.5
 Hash: 38d492cf072bc9f3c73bda2aee3d0e23
+
+Package: memoise
+Source: CRAN
+Version: 0.2.1
+Hash: fc52fa39dfd216c44d64812ff31b1c67
+Requires: digest
 
 Package: munsell
 Source: CRAN
@@ -92,7 +103,7 @@ Package: scales
 Source: CRAN
 Version: 0.2.5
 Hash: 8020d80e571708cbd049b1ea57cd01b6
-Requires: RColorBrewer, Rcpp, dichromat, labeling, munsell, plyr
+Requires: RColorBrewer, Rcpp, dichromat, labeling, plyr, munsell
 
 Package: stringi
 Source: CRAN
@@ -104,3 +115,8 @@ Source: CRAN
 Version: 1.0.0
 Hash: 513045488dcf8019cc2f4305dc7d1f90
 Requires: magrittr, stringi
+
+Package: testthat
+Source: CRAN
+Version: 0.10.0
+Requires: digest, crayon
